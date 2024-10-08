@@ -1,0 +1,129 @@
+.contact > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.contact > div > a {
+  box-sizing: border-box;
+  padding-top: 2rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact > div > div.print {
+  display: none;
+}
+
+.contact > div > a > img {
+  width: auto;
+}
+
+.contact > div > a > img:hover {
+  filter: brightness(100) saturate(100);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.contact {
+  display: none;
+}
+
+input, textarea {
+  border-radius: 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 400;
+  color: var(--violettext);
+  font-size: 1.2rem;
+}
+
+input:focus, textarea:focus {
+  background: rgba(255, 255, 255, 0.4);
+  caret-color: white;
+}
+
+input:hover, textarea:hover {
+  background: radial-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.contactForm {
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm .contactForm__text-input-wrapper {
+  display: flex;
+}
+.contactForm .contactForm__text-input-wrapper fieldset {
+  margin: 0 10px;
+  width: 100%;
+}
+.contactForm input[type=submit] {
+  margin: 20px 10px;
+  max-width: max-content;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  border: white;
+  border-radius: 27px;
+  box-shadow: 0 0 8px 0 white;
+  box-sizing: border-box;
+  margin: 2rem 0 2rem 0;
+}
+
+fieldset:hover {
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+fieldset label {
+  color: var(--violetbg);
+  font-weight: 700;
+}
+
+fieldset input, fieldset label {
+  cursor: pointer;
+}
+
+label {
+  color: white;
+}
+
+textarea {
+  padding: 1rem;
+  resize: none;
+  border-radius: 20px;
+  scrollbar-width: none;
+}
+
+#contact {
+  width: 100%;
+}
+
+@media screen and (max-width: 862px) {
+  .contactForm__text-input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm__text-input-wrapper fieldset {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

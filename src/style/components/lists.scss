@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+ul>li {
+  font-size: 1.3rem;
+  background-color: var(--transpVioletbg);
+  min-width: max-content;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: solid 0.125rem transparent;
+  box-shadow: 0 0 8px 0 white;
+  color: white;
+}
+
+ul>li:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--violettext);
+  border: solid 0.125rem var(--violetbg);
+  box-shadow: 0 0 2px 0;
+}

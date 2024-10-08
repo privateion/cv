@@ -1,0 +1,19 @@
+button {
+  width: 120px;
+  height: 30px;
+  margin-top: 50px;
+  font-size: 1.3rem;
+  background-color: var(--transpVioletbg);
+  border-radius: 10px;
+  color: white;
+  border: solid 0.125rem transparent;
+  box-shadow: 0 0 8px 0 white;
+}
+button:hover {
+  background-color: #3e3c3c;
+}
+button:active {
+  background-color: black;
+}
+
+/*# sourceMappingURL=buttons.css.map */

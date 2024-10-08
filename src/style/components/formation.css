@@ -1,0 +1,28 @@
+.formation > div > h3 {
+  color: rgb(44, 21, 74);
+}
+
+.formation {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.formation > div {
+  width: 15%;
+}
+
+.formation > div > h3::before {
+  content: url(../../assets/images/check-mark-svgrepo-com.svg);
+}
+
+@media screen and (max-width: 862px) {
+  .formation {
+    flex-direction: column;
+  }
+  .formation div {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=formation.css.map */

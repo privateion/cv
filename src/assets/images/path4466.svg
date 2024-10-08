@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14.379521mm"
+   height="13.229159mm"
+   viewBox="0 0 14.379521 13.229159"
+   version="1.1"
+   id="svg6460"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6462"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs6457">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4980"
+       id="linearGradient4982"
+       x1="0"
+       y1="12"
+       x2="24"
+       y2="12"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57518113,0,0,0.57518113,2.5850446,4.7174861)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4980">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4976" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.41;"
+         offset="0.246875"
+         id="stop4978" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.2974546,-5.0050758)">
+    <path
+       d="M 13.513485,5.2926661 H 5.4609446 a 2.8793568,2.8793568 0 0 0 -2.8759,2.8759 v 6.9021799 a 2.8793568,2.8793568 0 0 0 2.8759,2.8759 h 8.0525404 a 2.8793568,2.8793568 0 0 0 2.8759,-2.8759 V 8.1685661 a 2.8793568,2.8793568 0 0 0 -2.8759,-2.8759 z m -8.0525404,1.15036 h 8.0525404 a 1.7255435,1.7255435 0 0 1 1.599,1.08537 l -4.40474,4.4053099 a 1.7295697,1.7295697 0 0 1 -2.4410604,0 l -4.40474,-4.4053099 a 1.7255435,1.7255435 0 0 1 1.599,-1.08537 z M 13.513485,16.796286 H 5.4609446 a 1.7255435,1.7255435 0 0 1 -1.72554,-1.72554 V 9.0313461 l 3.71797,3.7156699 a 2.879932,2.879932 0 0 0 4.0676804,0 l 3.71797,-3.7156699 v 6.0393999 a 1.7255435,1.7255435 0 0 1 -1.72554,1.72554 z"
+       id="path4466"
+       style="fill:#3e314f;fill-opacity:0.69;stroke:url(#linearGradient4982);stroke-width:0.57518"
+       inkscape:export-filename="path4466.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
