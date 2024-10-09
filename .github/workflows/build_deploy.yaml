@@ -11,4 +11,4 @@ jobs:
         with:
           username: 'privateion'
           reponame: 'cv'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GHPAGES_VUE_DEPLOY}}
