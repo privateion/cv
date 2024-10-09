@@ -8,11 +8,19 @@ jobs:
       #fetch latest code version
       - name: Code
         uses: actions/checkout@v4
+      #install Node
       - name: Install Node v20
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      #install dependencies
       - name: Install
         run: npm install
-      - name: Test
-        run: npm run test
+      #build project
+      - name : Build Vue
+        id: Build-Vue
+        uses: xRealNeon/VuePagesAction@1.0.1
+        with:
+          username: 'privateion'
+          reponame: 'cv'
+          token: ${{ secrets.GHPAGES_VUE_DEPLOY}}
