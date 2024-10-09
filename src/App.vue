@@ -11,13 +11,9 @@ window.onload = () => {
 </script>
 
 <template>
-<AppHeader></AppHeader>
-  
+  <AppHeader/>
   <main>
-    <RouterView />
+    <RouterView/>
   </main>
-
-<footer>
-  <AppFooter/>
-</footer>
+    <AppFooter/>
 </template>
