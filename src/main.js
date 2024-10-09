@@ -12,7 +12,6 @@ import './style/layout/base.scss'
 import './style/layout/footer.scss'
 import './style/layout/header.scss'
 import './style/pages/presentation.scss'
-import './style/style-m-862.css'
 
 
 import { createApp } from 'vue'

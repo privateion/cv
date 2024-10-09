@@ -10,7 +10,7 @@ jobs:
     steps:
       #fetch latest code version
       - name: Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
       #install Node
       - name: Install Node v20
         uses: actions/setup-node@v4
