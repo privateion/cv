@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div id="contact">
+    <div id="contact" class="contact-infos-container">
       <div class="contact">
         <div class="mail">
           <a href="mailto:najima.guermoudi@gmail.com"><img src="../assets/images/path4466.svg" width="40" height="40"  alt="icône d'e-mail"></a>
