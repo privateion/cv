@@ -1,0 +1,1 @@
+import{b as r,o as a,d as s,P as i}from"./index-CQwWqlHa.js";const p={__name:"Presentation",setup(c){return r(()=>{const t=document.querySelector(".animation"),e=t.textContent.split("");t.innerHTML="";let n=0;setInterval(function(){o()},60);function o(){n<e.length&&(t.innerHTML+=e[n],n++)}}),(t,e)=>(a(),s(i))}};export{p as default};
