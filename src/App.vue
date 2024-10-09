@@ -2,12 +2,6 @@
 import { RouterLink, RouterView } from 'vue-router'
 import AppFooter from './components/AppFooter.vue';
 import AppHeader from "./components/AppHeader.vue";
-
-window.onload = () => {
-  Particles.init({
-    selector: '.background'
-  });
-};
 </script>
 
 <template>
