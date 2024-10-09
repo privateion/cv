@@ -1,32 +1,25 @@
-.experiences>div {
-  padding : 20px 0;
-}
-
-.experiences>div>p>a:first-of-type {
-  margin-left: 1rem;
-}
-
-.experiences>div>p>a {
-  padding: 1rem;
-}
-
-
-.experiences>div>p>a>img {
-  filter: grayscale(1);
-}
-
-.experiences>div>p>a>img:hover {
-  filter: none;
-}
-
-
 .experiences {
   max-width: max-content;
   margin: auto;
+  >div {
+  padding : 20px 0;
+    >p {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+      padding-top: 15px;
+      a {
+      padding: 1rem;
+        &:first-of-type {
+          margin-left: 1rem;
+        }
+        >img {
+          filter: grayscale(1);
+          &:hover {
+          filter: none;
+          }
+        }
+      }
+    }
+  }
 }
 
-.experiences>div>p {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  padding-top: 15px;
-}

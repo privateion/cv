@@ -1,12 +1,6 @@
 .header__nav {
-  //background-color: red;
   display: flex;
   justify-content: space-between;
-
-  .header__close-btn {
-    display: none;
-  }
-
   .header__link {
     font-size: 1rem;
     background-color: transparent;
@@ -18,7 +12,6 @@
     box-sizing: border-box;
     border: solid 0.125rem var(--violetbg);
     box-shadow: 0 0 2px 0;
-
     &:hover {
       cursor: pointer;
       background-color: var(--transpVioletbg);
@@ -27,20 +20,15 @@
       box-shadow: 0 0 8px 0 white;
     }
   }
-
+  .header__close-btn {
+    display: none;
+  }
   .header__open-btn {
     display: none;
   }
-
 }
 
-
-
-
-//MOBILE
-
 @media screen and (max-width: 862px) {
-  /*MENU */
   .header__nav-container {
     .header__nav {
       display: flex;
@@ -52,11 +40,9 @@
       background: #2b2727;
       padding: 2rem 0;
       transition: left 0.5s ease;
-
       &.active {
         left: 0;
       }
-
       .header__close-btn {
         display: inline;
         background: transparent;
@@ -66,22 +52,12 @@
         margin: 2rem;
         border: none;
       }
-
       &:hover {
         border: none;
       }
       .header__link {
         box-shadow: none;
       }
-
-
-      //.header__open-btn {
-      //display: inline;
-      //position: absolute;
-      //  top: 40px;
-      //  left: 40px;
-      //}
-
       .header__link, .header__link:hover {
         font-size: 1rem;
         text-align: center;
@@ -90,13 +66,10 @@
         color: white;
         box-shadow: none;
       }
-
       .header__open-btn.invisible {
         visibility: hidden;
       }
-
     }
-
     span {
       display: block;
       width: 35px;

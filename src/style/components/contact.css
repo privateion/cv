@@ -112,7 +112,7 @@ textarea {
   scrollbar-width: none;
 }
 
-#contact {
+.contact-infos-container {
   width: 100%;
 }
 

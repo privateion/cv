@@ -24,18 +24,6 @@ const projects = [
   <div>
     <!--CAROUSEL INDICATORS-->
     <div id="carouselIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button v-for="(project, index) in projects"
-                :key="index"
-                type="button"
-                :data-bs-target="'#carouselIndicators'"
-                :data-bs-slide-to="index"
-                :aria-label="'Slide '+(index+1)"
-                :class="{'active': index === 0}"
-                :aria-current="index === 0 ? 'true' : undefined">
-        </button>
-      </div>
-
       <!--INNER-->
       <div class="carousel-inner">
         <div v-for="(project, index) in projects"
