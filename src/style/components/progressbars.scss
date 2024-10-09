@@ -1,19 +1,17 @@
-
 .progress-bar {
   background: var(--violettext);
   box-shadow: 0 0 8px 0 white;
   border-radius: 20px;
   height: 16px;
+  .progress {
+    height: 100%;
+    border-radius: 20px;
+    background-color:rgba(82, 77, 88, 1);
+    box-shadow: 0 0 4px 0 inset;    width: 0;
+    transition: width 1s ease-in-out;
+  }
+  .progress.visible {
+    transition-delay: 0.5s;
+  }
 }
 
-.progress {
-  height: 100%;
-  border-radius: 20px;
-  background-color:rgba(82, 77, 88, 1);
-  box-shadow: 0 0 4px 0 inset;    width: 0;
-  transition: width 1s ease-in-out;
-}
-
-.progress.visible {
-  transition-delay: 0.5s;
-}

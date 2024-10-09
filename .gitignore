@@ -31,6 +31,5 @@ coverage
 
 /vendor
 
-/src/components/Header
-/src/components/Footer
-/src/components/History
+/src/style/*/*.css
+/src/style/*/*.css.map
