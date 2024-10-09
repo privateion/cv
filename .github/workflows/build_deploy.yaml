@@ -5,12 +5,23 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  build_vue:
+  build:
     runs-on: ubuntu-latest
-    name: Build Vue
     steps:
-      - uses: actions/checkout@v2
-      - id: Build-Vue
+      #fetch latest code version
+      - name: Code
+        uses: actions/checkout@v2
+      #install Node
+      - name: Install Node v20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      #install dependencies
+      - name: Install
+        run: npm install
+      #build project
+      - name : Build Vue
+        id: Build-Vue
         uses: xRealNeon/VuePagesAction@1.0.1
         with:
           username: 'privateion'

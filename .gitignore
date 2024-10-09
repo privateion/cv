@@ -33,3 +33,15 @@ coverage
 
 /src/style/*/*.css
 /src/style/*/*.css.map
+
+.env.example
+index.php
+package-lock.json
+public/about.txt
+/src/index.css
+/src/reportWebVitals.js
+/src/style/base.css
+/src/style/main.css
+/src/style/style-m-862.css
+start.bat
+

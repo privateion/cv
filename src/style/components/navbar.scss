@@ -40,6 +40,8 @@
       background: #2b2727;
       padding: 2rem 0;
       transition: left 0.5s ease;
+      justify-content: flex-start;
+      z-index: 2;
       &.active {
         left: 0;
       }
